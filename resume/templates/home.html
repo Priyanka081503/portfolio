@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %} 
+
+<div class="row my-5">
+    <div class="col-12 d-flex justify-content-center align-items-center">
+        <div class="circular-image-container">
+            <img class="circular-image"   src="{% static 'images/im.JPG' %}" alt="image">
+        </div>
+    </div>
+
+    <div class="col-12 text-center mt-3">
+        <h4 class="title"> Hi, my name is </h4>
+         <div class="name">
+            <h1> Priyanka T</h1>
+         </div>
+        
+    </div>
+
+    <div class="col-12 text-center mt-3">
+        <div class="col-12 d-flex justify-content-center align-items-center ">
+
+            <a href="https://www.linkedin.com/in/priyanka-t-325110253/" target="-blank" class="ms-3">
+                <img src="{% static 'images/linkendin.png'%}" alt="linkedin" width="50" height="45" class="social_links">
+            </a>
+
+            <a href="https://github.com/Priyanka081503" target="-blank" class="ms-3">
+                <img src="{% static 'images/github.jpeg'%}" alt="github" width="50" height="45" class="social_links">
+            </a>
+
+            <a href="https://www.instagram.com/priya_gowda_332?igsh=bDNlYnhueTkxd2cw" target="-blank" class="ms-3">
+                <img src="{% static 'images/insta.jpg'%}" alt="instagram" width="50" height="45" class="social_links">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content1 %}
+
